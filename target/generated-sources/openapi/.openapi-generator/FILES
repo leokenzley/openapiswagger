@@ -1,0 +1,7 @@
+README.md
+pom.xml
+src/main/java/com/leokenzley/openapiswagger/api/ApiUtil.java
+src/main/java/com/leokenzley/openapiswagger/api/UsersApi.java
+src/main/java/com/leokenzley/openapiswagger/model/Error.java
+src/main/java/com/leokenzley/openapiswagger/model/UserRequest.java
+src/main/java/com/leokenzley/openapiswagger/model/UserResponse.java

@@ -1,0 +1,7 @@
+com/leokenzley/openapiswagger/api/UsersApi.class
+com/leokenzley/openapiswagger/entrypoints/web/rest/controller/UserController.class
+com/leokenzley/openapiswagger/model/UserRequest.class
+com/leokenzley/openapiswagger/OpenapiswaggerApplication.class
+com/leokenzley/openapiswagger/model/UserResponse.class
+com/leokenzley/openapiswagger/api/ApiUtil.class
+com/leokenzley/openapiswagger/model/Error.class
