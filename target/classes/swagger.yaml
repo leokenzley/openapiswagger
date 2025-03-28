@@ -152,7 +152,16 @@ components:
         id:
           type: integer
           format: int32
-          example: 10   
+          example: 10
+        name:
+          type: string
+          example: theUser
+        email:
+          type: string
+          example: leo@demo.br
+        cpf:
+          type: string
+          example: 0000000000
  
  
  

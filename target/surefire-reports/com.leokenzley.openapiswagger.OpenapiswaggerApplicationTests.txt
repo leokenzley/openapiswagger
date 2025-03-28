@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.leokenzley.openapiswagger.OpenapiswaggerApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.791 s -- in com.leokenzley.openapiswagger.OpenapiswaggerApplicationTests
