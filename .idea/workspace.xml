@@ -5,39 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c73db26-98b9-49d2-a677-45e9b593f224" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leokenzley/openapiswagger/application/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leokenzley/openapiswagger/application/service/implementation/UserServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leokenzley/openapiswagger/entrypoints/web/rest/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leokenzley/openapiswagger/entrypoints/web/rest/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/swagger.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/swagger.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/leokenzley/openapiswagger/application/mapper/UserApplicationMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/leokenzley/openapiswagger/application/mapper/UserApplicationMapperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/leokenzley/openapiswagger/dataprovider/database/repository/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/leokenzley/openapiswagger/dataprovider/database/repository/mapper/UserMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/FILES" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/FILES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/swagger.yaml-default.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/swagger.yaml-default.sha256" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/api/UsersApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/api/UsersApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/Error.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/UserRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/UserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2v00CJsZriY5GnNwJCvkmbrKKIK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,13 +47,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.OpenapiswaggerApplication.executor": "Run",
+    "JUnit.All in openapiswagger (1).executor": "Coverage",
+    "JUnit.All in openapiswagger (2).executor": "Coverage",
+    "JUnit.All in openapiswagger (3).executor": "Coverage",
+    "JUnit.All in openapiswagger (4).executor": "Coverage",
+    "JUnit.All in openapiswagger (5).executor": "Coverage",
+    "JUnit.All in openapiswagger.executor": "Coverage",
+    "JUnit.CreateUserDataProviderImplTest.executor": "Run",
+    "JUnit.DeleteUserDataProviderImplTest.executor": "Run",
+    "JUnit.GetAllUsersDataProviderImplTest.executor": "Run",
+    "JUnit.GetUserDataProviderImplTest.executor": "Run",
+    "JUnit.UpdateUserUseCaseImplTest.executor": "Run",
+    "JUnit.UserControllerIntTest.executor": "Run",
+    "JUnit.WebExceptionHandlerTest.testHandleValidationException.executor": "Run",
+    "JUnit.com.leokenzley.openapiswagger.entrypoints.web in openapiswagger.executor": "Coverage",
     "Maven.openapiswagger [clean].executor": "Run",
     "Maven.openapiswagger [install].executor": "Run",
     "Maven.openapiswagger [org.apache.maven.plugins:maven-install-plugin:3.1.4:install].executor": "Run",
+    "Maven.openapiswagger [org.jacoco:jacoco-maven-plugin:0.8.8:report].executor": "Run",
     "Maven.openapiswagger [org.openapitools:openapi-generator-maven-plugin:6.6.0:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feat/h2db",
+    "git-widget-placeholder": "feat/tests",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/leo/Documentos/estudo/openapiswagger",
     "project.structure.last.edited": "Project",
@@ -61,23 +77,74 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="OpenapiswaggerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leokenzley.openapiswagger.OpenapiswaggerApplication" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.leokenzley.openapiswagger.dataprovider.handler" />
+      <recent name="com.leokenzley.openapiswagger.core.usecase.users.implementation" />
+      <recent name="com.leokenzley.openapiswagger.core.usecase.users" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in openapiswagger (2)">
+    <configuration name="All in openapiswagger (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openapiswagger" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in openapiswagger (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openapiswagger" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in openapiswagger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openapiswagger" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openapiswagger" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leokenzley.openapiswagger.*" />
+          <option name="PATTERN" value="com.leokenzley.openapiswagger.entrypoints.web.rest.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.leokenzley.openapiswagger.entrypoints.web.rest.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.leokenzley.openapiswagger.entrypoints.web.rest.controller.UserControllerIntTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.leokenzley.openapiswagger.entrypoints.web in openapiswagger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openapiswagger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leokenzley.openapiswagger.entrypoints.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leokenzley.openapiswagger.entrypoints.web" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OpenapiswaggerApplication" />
+        <item itemvalue="JUnit.All in openapiswagger (2)" />
+        <item itemvalue="JUnit.UserControllerIntTest" />
+        <item itemvalue="JUnit.All in openapiswagger (1)" />
+        <item itemvalue="JUnit.All in openapiswagger" />
+        <item itemvalue="JUnit.com.leokenzley.openapiswagger.entrypoints.web in openapiswagger" />
       </list>
     </recent_temporary>
   </component>
@@ -102,5 +169,16 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__5_.ic" NAME="All in openapiswagger (5) Coverage Results" MODIFIED="1743276529792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__4_.ic" NAME="All in openapiswagger (4) Coverage Results" MODIFIED="1743278903966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__3_.ic" NAME="All in openapiswagger (3) Coverage Results" MODIFIED="1743283832744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger.ic" NAME="All in openapiswagger Coverage Results" MODIFIED="1743284315818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__1_.ic" NAME="All in openapiswagger (1) Coverage Results" MODIFIED="1743284457640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__2_.ic" NAME="All in openapiswagger (2) Coverage Results" MODIFIED="1743283766928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$com_leokenzley_openapiswagger_entrypoints_web_in_openapiswagger.ic" NAME="com.leokenzley.openapiswagger.entrypoints.web in openapiswagger Coverage Results" MODIFIED="1743284188273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.leokenzley.openapiswagger.entrypoints.web.*</FILTER>
+    </SUITE>
   </component>
 </project>

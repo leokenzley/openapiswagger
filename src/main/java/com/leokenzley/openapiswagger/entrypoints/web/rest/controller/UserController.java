@@ -74,4 +74,6 @@ public class UserController implements UsersApi {
     updateUserUseCase.execute(Long.valueOf(id), mapper.toDomain(userRequest));
     return ResponseEntity.noContent().build();
   }
+
+
 }
