@@ -34,7 +34,7 @@ import java.util.Map;
 import java.util.Optional;
 import jakarta.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-03-29T14:03:13.632576518-03:00[America/Sao_Paulo]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-03-29T14:27:39.576842325-03:00[America/Sao_Paulo]")
 @Validated
 @Tag(name = "users", description = "Users controll APIs")
 @RequestMapping("${openapi.controleDeUsurios.base-path:}")
