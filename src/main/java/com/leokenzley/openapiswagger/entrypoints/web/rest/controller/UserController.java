@@ -8,6 +8,8 @@ import com.leokenzley.openapiswagger.model.UserResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 /**
  * UserController
  *
@@ -51,6 +53,17 @@ public class UserController implements UsersApi {
     return ResponseEntity.noContent().build();
   }
 
+  /**
+   * GET /users : Get all users.
+   * Get all users.
+   *
+   * @return successful operation (status code 200)
+   */
+  @Override
+  public ResponseEntity<List<UserResponse>> getAllUsers() {
+    return ResponseEntity.ok(getAllUsersUseCase.execute().stream().map(mapper::toResponse).toList());
+  }
+
   @Override
   public ResponseEntity<UserResponse> getUserById(Integer id) {
     return ResponseEntity.ok(mapper.toResponse(getUserUserCase.execute(Long.valueOf(id))));
@@ -58,6 +71,7 @@ public class UserController implements UsersApi {
 
   @Override
   public ResponseEntity<UserResponse> updateUser(Integer id, UserRequest userRequest) {
+    updateUserUseCase.execute(Long.valueOf(id), mapper.toDomain(userRequest));
     return ResponseEntity.noContent().build();
   }
 }

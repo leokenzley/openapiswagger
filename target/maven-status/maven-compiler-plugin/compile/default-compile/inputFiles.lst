@@ -18,6 +18,7 @@
 /home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/application/service/UserService.java
 /home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/entrypoints/web/rest/controller/UserController.java
 /home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/core/dataprovider/GetAllUsersDataProvider.java
+/home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/entrypoints/web/handler/model/ErrorAPI.java
 /home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/core/dataprovider/DeleteUserDataProvider.java
 /home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/core/usecase/users/implementation/DeleteUserUseCaseImpl.java
 /home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/core/usecase/users/DeleteUserUseCase.java
@@ -34,4 +35,5 @@
 /home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/core/usecase/users/GetAllUsersUseCase.java
 /home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/dataprovider/handler/exception/DataProviderNotFoundException.java
 /home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/core/usecase/users/implementation/UpdateUserUseCaseImpl.java
+/home/leo/Documentos/estudo/openapiswagger/src/main/java/com/leokenzley/openapiswagger/entrypoints/web/handler/WebExceptionHandler.java
 /home/leo/Documentos/estudo/openapiswagger/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/UserRequest.java

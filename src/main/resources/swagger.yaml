@@ -103,6 +103,26 @@ paths:
               schema:
                 $ref: "#/components/schemas/Error"
   /users:
+    get:
+      tags:
+        - users
+      summary: Get all users.
+      description: Get all users.
+      operationId: getAllUsers
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/UserResponse'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/UserResponse'
     post:
       tags:
         - users
@@ -135,7 +155,16 @@ components:
         id:
           type: integer
           format: int32
-          example: 10                
+          example: 10
+        name:
+          type: string
+          example: theUser
+        email:
+          type: string
+          example: leo@demo.br
+        cpf:
+          type: string
+          example: 0000000000             
     Error:
       type: object
       properties:

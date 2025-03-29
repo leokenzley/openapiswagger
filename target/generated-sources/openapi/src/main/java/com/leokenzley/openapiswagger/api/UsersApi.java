@@ -34,7 +34,7 @@ import java.util.Map;
 import java.util.Optional;
 import jakarta.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-03-27T22:01:22.552483169-03:00[America/Sao_Paulo]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-03-29T14:03:13.632576518-03:00[America/Sao_Paulo]")
 @Validated
 @Tag(name = "users", description = "Users controll APIs")
 @RequestMapping("${openapi.controleDeUsurios.base-path:}")
@@ -99,6 +99,34 @@ public interface UsersApi {
     )
     ResponseEntity<Void> deleteUserById(
         @Parameter(name = "id", description = "The id that needs to be fetched. Use user1 for testing", required = true, in = ParameterIn.PATH) @PathVariable("id") Integer id
+    );
+
+
+    /**
+     * GET /users : Get all users.
+     * Get all users.
+     *
+     * @return successful operation (status code 200)
+     */
+    @Operation(
+        operationId = "getAllUsers",
+        summary = "Get all users.",
+        description = "Get all users.",
+        tags = { "users" },
+        responses = {
+            @ApiResponse(responseCode = "200", description = "successful operation", content = {
+                @Content(mediaType = "application/json", array = @ArraySchema(schema = @Schema(implementation = UserResponse.class))),
+                @Content(mediaType = "application/xml", array = @ArraySchema(schema = @Schema(implementation = UserResponse.class)))
+            })
+        }
+    )
+    @RequestMapping(
+        method = RequestMethod.GET,
+        value = "/users",
+        produces = { "application/json", "application/xml" }
+    )
+    ResponseEntity<List<UserResponse>> getAllUsers(
+        
     );
 
 

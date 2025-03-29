@@ -19,12 +19,18 @@ import jakarta.annotation.Generated;
  * UserResponse
  */
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-03-27T22:01:22.552483169-03:00[America/Sao_Paulo]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-03-29T14:03:13.632576518-03:00[America/Sao_Paulo]")
 public class UserResponse implements Serializable {
 
   private static final long serialVersionUID = 1L;
 
   private Integer id;
+
+  private String name;
+
+  private String email;
+
+  private String cpf;
 
   public UserResponse id(Integer id) {
     this.id = id;
@@ -46,6 +52,66 @@ public class UserResponse implements Serializable {
     this.id = id;
   }
 
+  public UserResponse name(String name) {
+    this.name = name;
+    return this;
+  }
+
+  /**
+   * Get name
+   * @return name
+  */
+  
+  @Schema(name = "name", example = "theUser", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public UserResponse email(String email) {
+    this.email = email;
+    return this;
+  }
+
+  /**
+   * Get email
+   * @return email
+  */
+  
+  @Schema(name = "email", example = "leo@demo.br", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("email")
+  public String getEmail() {
+    return email;
+  }
+
+  public void setEmail(String email) {
+    this.email = email;
+  }
+
+  public UserResponse cpf(String cpf) {
+    this.cpf = cpf;
+    return this;
+  }
+
+  /**
+   * Get cpf
+   * @return cpf
+  */
+  
+  @Schema(name = "cpf", example = "0", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cpf")
+  public String getCpf() {
+    return cpf;
+  }
+
+  public void setCpf(String cpf) {
+    this.cpf = cpf;
+  }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) {
@@ -55,12 +121,15 @@ public class UserResponse implements Serializable {
       return false;
     }
     UserResponse userResponse = (UserResponse) o;
-    return Objects.equals(this.id, userResponse.id);
+    return Objects.equals(this.id, userResponse.id) &&
+        Objects.equals(this.name, userResponse.name) &&
+        Objects.equals(this.email, userResponse.email) &&
+        Objects.equals(this.cpf, userResponse.cpf);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id);
+    return Objects.hash(id, name, email, cpf);
   }
 
   @Override
@@ -68,6 +137,9 @@ public class UserResponse implements Serializable {
     StringBuilder sb = new StringBuilder();
     sb.append("class UserResponse {\n");
     sb.append("    id: ").append(toIndentedString(id)).append("\n");
+    sb.append("    name: ").append(toIndentedString(name)).append("\n");
+    sb.append("    email: ").append(toIndentedString(email)).append("\n");
+    sb.append("    cpf: ").append(toIndentedString(cpf)).append("\n");
     sb.append("}");
     return sb.toString();
   }
