@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c73db26-98b9-49d2-a677-45e9b593f224" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/OpenapiswaggerApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leokenzley/openapiswagger/application/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leokenzley/openapiswagger/application/service/implementation/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leokenzley/openapiswagger/entrypoints/web/rest/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leokenzley/openapiswagger/entrypoints/web/rest/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/leokenzley/openapiswagger/application/mapper/UserApplicationMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/leokenzley/openapiswagger/application/mapper/UserApplicationMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/leokenzley/openapiswagger/dataprovider/database/repository/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/leokenzley/openapiswagger/dataprovider/database/repository/mapper/UserMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/api/UsersApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/api/UsersApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/com/leokenzley/openapiswagger/model/UserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/OpenapiswaggerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/dataprovider/GetUserDataProviderImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/dataprovider/GetUserDataProviderImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/dataprovider/UpdateUserDataProviderImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/dataprovider/UpdateUserDataProviderImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/dataprovider/handler/DataProviderExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/dataprovider/handler/DataProviderExceptionHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/dataprovider/handler/exception/DataProviderNotFoundExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/dataprovider/handler/exception/DataProviderNotFoundExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/entrypoints/web/handler/WebExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/entrypoints/web/handler/WebExceptionHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/entrypoints/web/handler/model/ErrorAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leokenzley/openapiswagger/entrypoints/web/handler/model/ErrorAPITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +52,7 @@
     "JUnit.DeleteUserDataProviderImplTest.executor": "Run",
     "JUnit.GetAllUsersDataProviderImplTest.executor": "Run",
     "JUnit.GetUserDataProviderImplTest.executor": "Run",
+    "JUnit.UpdateUserDataProviderImplTest.executor": "Run",
     "JUnit.UpdateUserUseCaseImplTest.executor": "Run",
     "JUnit.UserControllerIntTest.executor": "Run",
     "JUnit.WebExceptionHandlerTest.testHandleValidationException.executor": "Run",
@@ -79,12 +75,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.leokenzley.openapiswagger.api" />
       <recent name="com.leokenzley.openapiswagger.dataprovider.handler" />
       <recent name="com.leokenzley.openapiswagger.core.usecase.users.implementation" />
       <recent name="com.leokenzley.openapiswagger.core.usecase.users" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in openapiswagger (2)">
+  <component name="RunManager" selected="JUnit.All in openapiswagger (3)">
     <configuration name="All in openapiswagger (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openapiswagger" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,6 +98,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in openapiswagger (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openapiswagger" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in openapiswagger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openapiswagger" />
       <option name="PACKAGE_NAME" value="" />
@@ -109,42 +114,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateUserDataProviderImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openapiswagger" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leokenzley.openapiswagger.entrypoints.web.rest.controller.*" />
+          <option name="PATTERN" value="com.leokenzley.openapiswagger.dataprovider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leokenzley.openapiswagger.entrypoints.web.rest.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.leokenzley.openapiswagger.entrypoints.web.rest.controller.UserControllerIntTest" />
+      <option name="PACKAGE_NAME" value="com.leokenzley.openapiswagger.dataprovider" />
+      <option name="MAIN_CLASS_NAME" value="com.leokenzley.openapiswagger.dataprovider.UpdateUserDataProviderImplTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.leokenzley.openapiswagger.entrypoints.web in openapiswagger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="openapiswagger" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leokenzley.openapiswagger.entrypoints.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leokenzley.openapiswagger.entrypoints.web" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in openapiswagger (3)" />
         <item itemvalue="JUnit.All in openapiswagger (2)" />
-        <item itemvalue="JUnit.UserControllerIntTest" />
         <item itemvalue="JUnit.All in openapiswagger (1)" />
+        <item itemvalue="JUnit.UpdateUserDataProviderImplTest" />
         <item itemvalue="JUnit.All in openapiswagger" />
-        <item itemvalue="JUnit.com.leokenzley.openapiswagger.entrypoints.web in openapiswagger" />
       </list>
     </recent_temporary>
   </component>
@@ -171,12 +162,12 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__5_.ic" NAME="All in openapiswagger (5) Coverage Results" MODIFIED="1743276529792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__4_.ic" NAME="All in openapiswagger (4) Coverage Results" MODIFIED="1743278903966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__3_.ic" NAME="All in openapiswagger (3) Coverage Results" MODIFIED="1743283832744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger.ic" NAME="All in openapiswagger Coverage Results" MODIFIED="1743284315818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__1_.ic" NAME="All in openapiswagger (1) Coverage Results" MODIFIED="1743284457640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__2_.ic" NAME="All in openapiswagger (2) Coverage Results" MODIFIED="1743283766928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__5_.ic" NAME="All in openapiswagger (5) Coverage Results" MODIFIED="1743630997019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__4_.ic" NAME="All in openapiswagger (4) Coverage Results" MODIFIED="1743633082241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__3_.ic" NAME="All in openapiswagger (3) Coverage Results" MODIFIED="1743632893689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger.ic" NAME="All in openapiswagger Coverage Results" MODIFIED="1743633179062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__1_.ic" NAME="All in openapiswagger (1) Coverage Results" MODIFIED="1743633331893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/openapiswagger$All_in_openapiswagger__2_.ic" NAME="All in openapiswagger (2) Coverage Results" MODIFIED="1743633489838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/openapiswagger$com_leokenzley_openapiswagger_entrypoints_web_in_openapiswagger.ic" NAME="com.leokenzley.openapiswagger.entrypoints.web in openapiswagger Coverage Results" MODIFIED="1743284188273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>com.leokenzley.openapiswagger.entrypoints.web.*</FILTER>
     </SUITE>

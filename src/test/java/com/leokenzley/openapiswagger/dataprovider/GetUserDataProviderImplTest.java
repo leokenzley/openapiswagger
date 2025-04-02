@@ -46,14 +46,14 @@ public class GetUserDataProviderImplTest {
         Long userId = 1L;
         UserEntity userEntity = new UserEntity();
         userEntity.setId(userId);
-        UserDomain expectedUser = new UserDomain(userId, "John Doe", "john.doe@example.com", "123.456.789-00");
+        UserDomain userDomain = new UserDomain(userId, "John Doe", "john.doe@example.com", "123.456.789-00");
 
         when(userRepository.findById(userId)).thenReturn(Optional.of(userEntity));
-        when(userMapper.toDomain(userEntity)).thenReturn(expectedUser);
+        when(userMapper.toDomain(userEntity)).thenReturn(userDomain);
 
-        UserDomain actualUser = getUserDataProvider.get(userId);
+        UserDomain result = getUserDataProvider.get(userId);
 
-        assertEquals(expectedUser, actualUser);
+        assertEquals(userDomain, result);
     }
 
     @Test

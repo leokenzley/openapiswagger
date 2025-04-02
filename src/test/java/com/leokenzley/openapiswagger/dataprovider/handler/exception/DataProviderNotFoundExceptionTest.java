@@ -16,4 +16,10 @@ public class DataProviderNotFoundExceptionTest {
 
         assertEquals(message, exception.getMessage());
     }
+
+    @Test
+    public void testExceptionWithoutMessage() {
+        DataProviderNotFoundException exception = new DataProviderNotFoundException(null);
+        assertEquals(null, exception.getMessage());
+    }
 }
